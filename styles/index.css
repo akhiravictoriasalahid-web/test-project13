@@ -173,3 +173,43 @@ ul {
   line-height: 26px;
   margin-bottom: 50px;
 }
+
+.why-text p {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 1.6px;
+  color: #e8e8e8;
+  margin-bottom: 45px;
+}
+
+.why .btn {
+  font-family: "Aleo", serif;
+  width: 228px;
+  height: 63px;
+  font-size: normal;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 1.2px;
+}
+
+.why-images {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.why-images img {
+  width: 350px;
+  height: 220px;
+  display: block;
+  margin-bottom: 10px;
+}
