@@ -159,7 +159,7 @@ ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 100px;
+  gap: 80px;
 }
 
 .why-text {
@@ -211,5 +211,13 @@ ul {
   width: 350px;
   height: 220px;
   display: block;
+}
+
+.why-images img:first-child {
   margin-bottom: 10px;
+}
+
+.why-images img:last-child {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
 }

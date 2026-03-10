@@ -6,7 +6,7 @@
 .why .container {
     display: flex;
     align-items: center;
-    gap: 100px;
+    gap: 80px;
 }
 .why-text {
     max-width: 560px;
@@ -46,5 +46,10 @@
     width: 350px;
     height: 220px;
     display: block;
+}
+.why-images img:first-child {
     margin-bottom: 10px;
+}
+.why-images img:last-child {
+    align-self: flex-end;
 }
