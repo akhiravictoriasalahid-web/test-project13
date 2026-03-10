@@ -227,7 +227,52 @@ ul {
   height: 340px;
   background: #333333;
   color: #ffffff;
+  padding: 80px 0;
+}
+
+.steps-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.step {
   text-align: center;
+}
+
+.step p {
+  font-family: "Aleo", serif;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 26px;
+  color: #E8E8E8;
+}
+
+.step-icon {
+  font-size: 57px;
+  margin-bottom: 19px;
+}
+
+.search {
+  color: #5474FD;
+}
+
+.select {
+  color: #FF6363;
+}
+
+.book {
+  color: #00A2FF;
+}
+
+.curve {
+  margin-top: 30px;
 }
 
 .destination {
