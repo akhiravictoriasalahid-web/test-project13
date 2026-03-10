@@ -1,0 +1,21 @@
+.why {
+    background: url("../images/whychooseus.png") center/cover no-repeat;
+    color: #FFFFFF;
+    padding: 80px 0;
+}
+.why .container {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.why-text {
+    max-width: 560px;
+
+}
+.why-text h2 {
+    font-family: "Aleo", serif;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 26px;
+    margin-bottom: 50px;
+}

@@ -145,3 +145,31 @@ ul {
   line-height: 26px;
   letter-spacing: 1.4px;
 }
+
+.why {
+  background: url("../images/whychooseus.png") center/cover no-repeat;
+  color: #FFFFFF;
+  padding: 80px 0;
+}
+
+.why .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 100px;
+}
+
+.why-text {
+  max-width: 560px;
+}
+
+.why-text h2 {
+  font-family: "Aleo", serif;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 26px;
+  margin-bottom: 50px;
+}
