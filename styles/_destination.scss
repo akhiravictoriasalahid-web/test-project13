@@ -44,3 +44,11 @@
     line-height: 26px;
     letter-spacing: 1.2px;
 }
+/* ==== TABLET ==== */
+@media (max-width:768px) {
+    .destination-card,
+    .destination-card2 {
+         width:100%;
+         height:auto;
+    }
+}

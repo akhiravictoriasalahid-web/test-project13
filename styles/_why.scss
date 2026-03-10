@@ -45,10 +45,27 @@
     width: 350px;
     height: 220px;
     display: block;
+    transition: all 0.4s ease;
 }
 .why-images img:first-child {
     margin-bottom: 10px;
 }
 .why-images img:last-child {
     align-self: flex-end;
+}
+/* ==== HOVER ==== */
+.why-images img:hover {
+    transform: scale(1.05);
+    filter: brightness(1.1);
+}
+/* ==== TABLET ==== */
+@media (max-width:768px) {
+    .why .container {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .why-images img {
+        width: 100%;
+        height: auto;
+    }
 }

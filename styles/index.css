@@ -41,7 +41,7 @@ ul {
 }
 
 .hero {
-  height: 100vh;
+  height: 821px;
   background: url("../images/main-image.png") center/cover no-repeat;
   color: #FFFFFF;
   display: -webkit-box;
@@ -63,11 +63,14 @@ ul {
   font-size: 24px;
   line-height: 26px;
   letter-spacing: 2.4px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
 }
 
 .navbar {
   width: 100%;
-  padding: 30px 0;
+  padding: 12px 0;
   background-color: #5474FD;
 }
 
@@ -93,6 +96,13 @@ ul {
   font-size: 14px;
   line-height: 26px;
   color: #FFFFFF;
+}
+
+.nav-links a {
+  color: #FFFFFF;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
 }
 
 .hero-content {
@@ -148,6 +158,44 @@ ul {
   letter-spacing: 1.4px;
 }
 
+.scroll-down {
+  margin-top: 100px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 2.8px;
+}
+
+.scroll-down i {
+  font-size: 14px;
+}
+
+/* ==== HOVER ==== */
+.logo:hover {
+  opacity: 0.7;
+}
+
+.nav-links a:hover {
+  color: #999999;
+}
+
+/* ==== TABLET ==== */
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 18px;
+  }
+  .search-form {
+    width: 100px;
+  }
+  .navbar .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 10px;
+  }
+}
 .why {
   background: url("../images/whychooseus.png") center/cover no-repeat;
   color: #FFFFFF;
@@ -212,6 +260,8 @@ ul {
   width: 350px;
   height: 220px;
   display: block;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 
 .why-images img:first-child {
@@ -223,6 +273,28 @@ ul {
       align-self: flex-end;
 }
 
+/* ==== HOVER ==== */
+.why-images img:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-filter: brightness(1.1);
+          filter: brightness(1.1);
+}
+
+/* ==== TABLET ==== */
+@media (max-width: 768px) {
+  .why .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 40px;
+  }
+  .why-images img {
+    width: 100%;
+    height: auto;
+  }
+}
 .steps {
   height: 340px;
   background: #333333;
@@ -275,6 +347,19 @@ ul {
   margin-top: 30px;
 }
 
+/* ==== TABLET ==== */
+@media (max-width: 768px) {
+  .steps-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 40px;
+  }
+  .step::after {
+    display: none;
+  }
+}
 .destination {
   height: 700px;
   background: url("../images/Spainmadrid1.png") center/cover no-repeat;
@@ -333,6 +418,14 @@ ul {
   letter-spacing: 1.2px;
 }
 
+/* ==== TABLET ==== */
+@media (max-width: 768px) {
+  .destination-card,
+  .destination-card2 {
+    width: 100%;
+    height: auto;
+  }
+}
 .destination-second {
   height: 700px;
   background: url("../images/Spainmadrid2.png") center/cover no-repeat;
@@ -430,6 +523,8 @@ ul {
   height: 284px;
   -o-object-fit: cover;
      object-fit: cover;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 
 .testimonial-content {
@@ -453,6 +548,26 @@ ul {
   font-size: 20px;
 }
 
+/* ==== HOVER ==== */
+.testimonial-image:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-filter: brightness(1.1);
+          filter: brightness(1.1);
+}
+
+/* ==== TABLET ==== */
+@media (max-width: 768px) {
+  .testimonial-card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .testimonial-image img {
+    width: 100%;
+  }
+}
 .footer {
   height: 271px;
   background: #232323;
@@ -468,6 +583,9 @@ ul {
   line-height: 26px;
   letter-spacing: 3.36px;
   margin-bottom: 8px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
 }
 
 .footer-text {
@@ -500,6 +618,20 @@ ul {
   transition: 0.3s;
 }
 
+/* ==== HOVER ==== */
 .social a:hover {
   color: #5474fd;
+}
+
+.footer-logo:hover {
+  opacity: 0.7;
+}
+
+/* ==== TABLET ==== */
+@media (max-width: 768px) {
+  .social {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }

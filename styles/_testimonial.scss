@@ -21,7 +21,9 @@
     width: 445px;
     height: 284px;
     object-fit: cover;
-}.testimonial-content {
+    transition: all 0.4s ease;
+}
+.testimonial-content {
     font-family: "Josefin Sans", sans-serif;
     font-weight: normal;
     line-height: 26px;
@@ -37,4 +39,18 @@
 .quote-icon {
     color: #5474fd;
     font-size: 20px;
+}
+/* ==== HOVER ==== */
+.testimonial-image:hover {
+    transform: scale(1.05);
+    filter: brightness(1.1);
+}
+/* ==== TABLET ==== */
+@media (max-width:768px) {
+    .testimonial-card {
+        flex-direction: column;
+    }
+    .testimonial-image img {
+        width: 100%;
+    }
 }
