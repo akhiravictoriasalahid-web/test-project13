@@ -28,24 +28,62 @@
     justify-content: center;
     gap: 10px;
 }
-.social a .fa-linkedin-in {
+/*.social a .fa-linkedin-in {
     color: #5474fd;
-}
+}*/
 .social a {
     color: white;
     font-size: 16px;
     transition: 0.3s;
 }
 /* ==== HOVER ==== */
-.social a:hover {
+.social a .fa-linkedin-in:hover,
+.social a .fa-facebook:hover {
     color: #5474fd;
+}
+.social a .fa-twitter:hover {
+    color: #1DA1F2;
+}
+.social a .fa-pinterest:hover,
+.social a .fa-youtube:hover {
+    color: #E60023;
 }
 .footer-logo:hover {
     opacity: 0.7;
 }
 /* ==== TABLET ==== */
 @media (max-width:768px) {
+    .footer {
+        padding: 80px 0;
+    }
+    .footer-logo {
+        font-size: 22px;
+        letter-spacing: 2px;
+    }
+    .footer-text {
+        font-size: 14px;
+    }
     .social {
-        justify-content: center;
+        gap: 15px;
+    }
+}
+/* ==== MOBILE ==== */
+@media (max-width: 576px) {
+    .footer {
+        padding: 60px 20px;
+    }
+    .footer-logo {
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+    .footer-text {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .social {
+        gap: 12px;
+    }
+    .social a {
+        font-size: 18px;
     }
 }
