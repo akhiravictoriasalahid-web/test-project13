@@ -48,3 +48,51 @@
     line-height: 26px;
     letter-spacing: 1.2px;
 }
+/* ==== TABLET ==== */
+@media (max-width: 768px) {
+    .destination-second {
+        padding: 80px 20px;
+    }
+    .destination-second .container {
+        justify-content: center;
+    }
+    .destination-card2 {
+        max-width: 500px;
+        width: 100%;
+        padding: 30px;
+    }
+    .destination-card2 p {
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+    .destination-card2 .btn {
+        min-height: 55px;
+    }
+}
+/* ==== MOBILE ==== */
+@media (max-width: 576px) {
+    .destination-second {
+        padding: 60px 15px;
+    }
+    .destination-card2 {
+        max-width: 100%;
+        padding: 20px;
+    }
+    .destination-card2 h4 {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    .destination-card2 h3 {
+        font-size: 18px;
+    }
+    .destination-card2 p {
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 25px;
+    }
+    .destination-card2 .btn {
+        max-width: 100%;
+        min-height: 50px;
+        font-size: 14px;
+    }
+}

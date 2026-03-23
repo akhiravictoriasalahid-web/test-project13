@@ -48,9 +48,51 @@
 }
 /* ==== TABLET ==== */
 @media (max-width:768px) {
-    .destination-card,
-    .destination-card2 {
-         width:100%;
-         height:auto;
+    .destination {
+        padding: 80px 20px;
+    }
+    .destination .container {
+        display: flex;
+        justify-content: center;
+    }
+    .destination-card {
+        max-width: 500px;
+        padding: 30px;
+    }
+    .destination-card p {
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+    .destination .btn {
+        min-height: 55px;
+    }
+}
+/* ==== MOBILE ==== */
+@media (max-width: 576px) {
+    .destination {
+        padding: 60px 15px;
+    }
+    .destination-card {
+        max-width: 100%;
+        padding: 20px;
+    }
+    .destination-card h4 {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    .destination-card h3 {
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 25px;
+    }
+    .destination-card p {
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 25px;
+    }
+    .destination .btn {
+        max-width: 100%;
+        min-height: 50px;
+        font-size: 14px;
     }
 }
